@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/logo.jpg">
+   
+    <title>TECNOSTORE</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="css/animate.min.css" rel="stylesheet"> 
+	<link href="css/style.css" rel="stylesheet" />	
+    
+  <body>	
+	<header id="header">
+        <nav class="navbar navbar-default navbar-static-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   <div class="navbar-brand">
+						<a href="index.html"><h1>TECNOSTORE</h1></a>
+					</div>
+                </div>				
+                <div class="navbar-collapse collapse">							
+					<div class="menu">
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation"><a href="index.html">Inicio</a></li>
+							<li role="presentation"><a href="mantenimiento.html">Mantenimiento</a></li>
+							<li role="presentation"><a href="services.html">Preguntas</a></li>
+							<li role="presentation"><a href="contacto.html">Habla con nosotros</a></li>
+												
+						</ul>
+					</div>
+				</div>		
+            </div>
+        </nav>	
+    </header>
+	
+	
+	
+	<section class="contact-page">
+        <div class="container">
+            <div class="text-center">        
+                <h2>Para hablar con nosotros</h2>
+                <p><h4>Aqui abajo, te dejamos un espacio para que nos dejes tus dudas, inquietudes, para que nos comentes cualquier cosa que podamos ayudarte, y con gusto lo haremos
+					.</p></h4>
+            </div> 
+            <div class="row contact-wrap"> 
+                <div class="status alert alert-success" style="display: none"></div>
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                            <label>Nombre</label>
+                            <input type="text" name="name" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Correo electronico</label>
+                            <input type="email" name="email" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Celular</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>ID</label>
+                            <input type="text" class="form-control">
+                        </div>                        
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <label>¿Qué problemas tienes?</label>
+                            <input type="text" name="subject" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Mensaje</label>
+                            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+                        </div>                        
+                        <div class="form-group">
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Enviar</button>
+                        </div>
+                    </div>
+                </form> 
+            </div>
+        </div>
+    </section>
+	
+	
+	<footer>
+		<div class="container">
+			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+				<h4>TecnoStore</h4>
+										
+				<div class="contact-info">
+					<ul>
+						<li><i class="fa fa-home fa"></i>Calle 50 sur #92 D 87</li>
+						<li><i class="fa fa-phone fa"></i> +57 3104268800</li>
+						<li><i class="fa fa-envelope fa"></i> infoTecnoStore@gmail.com</li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+			
+	</footer>
+	
+	<div class="sub-footer">
+		<div class="container">
+			<div class="social-icon">
+				<div class="col-md-4">
+					<ul class="social-network">
+						<li><a href="https://es-la.facebook.com/" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/?lang=es" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						
+						<li><a href="https://co.linkedin.com/" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.youtube.com/" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+					</ul>	
+				</div>
+			</div>
+			
+									
+		</div>				
+	</div>
+	
+    
+    <script src="js/jquery.js"></script>		
+   
+    <script src="js/bootstrap.min.js"></script>	
+	<script src="js/wow.min.js"></script>
+	<script>
+	wow = new WOW(
+	 {
+	
+		}	) 
+		.init();
+	</script>	
+  </body>
+</html>
